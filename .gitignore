@@ -1,0 +1,36 @@
+# Compiled files
+dist/
+
+# Config file
+config/config.js
+config.env
+.env
+
+# Node stuff
+node_modules
+.npm
+.node_repl_history
+.lock-wscript
+logs
+*.log
+npm-debug.log*
+
+# OS stuff
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# DB Connections
+*/util/database.js
+nodemon.json
+
+# Api Credentials
+*/util/api-keys.js
+
+# Images folder
+*/images/*
