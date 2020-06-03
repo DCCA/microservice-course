@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: posts
-      image: dcca/node:0.0.1
+      image: dcca/posts:0.0.1
