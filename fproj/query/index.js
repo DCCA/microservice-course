@@ -63,7 +63,7 @@ app.listen(4002, async () => {
   console.log("QueryService listening on 4002");
   console.log("Sync");
   const res = await axios
-    .get("http://localhost:4005/events")
+    .get("http://event-bus-srv:4005/events")
     .catch((err) => console.log(err));
   console.log(res.data);
 

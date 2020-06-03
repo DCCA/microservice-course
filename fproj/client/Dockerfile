@@ -1,6 +1,9 @@
 # Base file
 FROM node:alpine
 
+# Fix
+ENV CI=true
+
 # Workdir
 WORKDIR /app
 
